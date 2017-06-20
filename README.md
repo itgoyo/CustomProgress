@@ -31,7 +31,7 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.itgoyo:CustomProgress:v1.0'
+	        compile 'com.github.itgoyo:CustomProgress:v1.0.2'
 	}
 
 ```
