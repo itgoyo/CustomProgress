@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomProgress</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_line">直线型</string>
+    <string name="action_arc">圆形</string>
+    <string name="action_sector">扇形</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineProgressBar">
+        <attr name="lineprogressColor" format="color"/>
+        <attr name="progressDescColor" format="color"/>
+        <attr name="progressRadius" format="dimension"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="lineborderWidth" format="dimension"/>
+        <attr name="progressDesc" format="string"/>
+        <attr name="isShowDesc" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arcborderWidth" format="dimension"></attr>
+        <attr name="unprogresColor" format="color"></attr>
+        <attr name="arcprogressColor" format="color"></attr>
+        <attr name="tickWidth" format="dimension"></attr>
+        <attr name="tickDensity" format="integer"></attr>
+        <attr name="bgShow" format="boolean"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="arcbgColor" format="color"></attr>
+        <attr name="degree" format="integer"></attr>
+        <attr name="arcCapRound" format="boolean"></attr>
+        <attr name="progressStyle" format="enum">
+            <enum name="tick" value="1"></enum>
+            <enum name="arc" value="0"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressView">
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="underColor" format="color|reference"/>
+        <attr name="percentTextSize" format="dimension"/>
+        <attr name="percentTextColor" format="color|reference"/>
+        <attr name="isRestartProgress" format="boolean"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="symbolSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>
